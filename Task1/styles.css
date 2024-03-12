@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  background-color: #9d4edd;
+  font-family: Arial;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: #2d0c7a;
+  width: 95vw;
+  height: 85vh;
+  margin-top: 50px;  
+}
+
+.sub1{
+  width: 50%;
+  display: inline-block;
+  min-width: 500px;
+  height: 70vh;
+  margin-left: 180px;
+}
+
+.sub2{
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 95vw;
+}
+.navbar ul{
+  cursor: pointer;
+}
+
+.regi{
+  width: 80%;
+  margin-left: 30px;
+  height: 70%;
+  padding: 20px;
+
+}
+
+.regi .span1{
+  font-size: 40px;
+  color: rgb(202, 134, 196);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.span2{
+  color: white;
+  font-size: 18px;
+}
+
+.spans{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputs-field{
+  min-width: 400px;
+  height: 70%;
+}
+
+.regi input{
+  margin: 10px;
+}
+.regi textarea{
+  margin-left: 10px;
+  height: 15vh;
+}
+
+.regi input, textarea{
+  height: 40px;
+  background-color: rgba(96, 62, 190, 0.654);
+  color: grey;
+
+}
+
+.sub1n2{
+  display: flex;
+  width: 95vw;
+  color: white;
+  margin-left: 30px;
+  justify-content: space-around;
+
+}
+
+.sub2 .contactinfo{
+  font-size: 40px;
+  color: rgb(216, 32, 200);
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sub2 span{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.follow-div{
+  display: flex;
+  margin-top: 50px;
+
+  flex-direction: column;
+  align-items: center;
+}
+.social-buttons{
+  vertical-align: bottom;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 50px;
+
+}
+
+.social-buttons img{
+  width: 40px;
+  border-radius: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+.social-buttons .linkedin{
+  width: 60px;
+  height: 60px;
+  vertical-align: bottom;
+}
+.submit-button{
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  background-color: #9d4edd;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.follow-div span{
+  font-size: 40px;
+  color: rgb(216, 32, 200);
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
