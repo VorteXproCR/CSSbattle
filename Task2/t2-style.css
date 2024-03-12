@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial;
+}
+
+.person-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.person-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  
+}
+
+.person-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person-stats {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.stat {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+}
+
+.social-icons {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  width: 250px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.message-button {
+  margin-right: 10px;
+  background-color: rgba(213, 108, 226, 0.839);
+}
+
+.follow-button{
+  background-color: rgb(227, 86, 61);
+}
+.bean-img{
+  position: absolute;
+  top: -85px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  color: rgb(186, 186, 186);
+  border-style: solid;
+
+}
+.id-name{
+  font-size: 20px;
+  color: rgb(216, 32, 200);
+  margin-bottom: 30px;
+}
